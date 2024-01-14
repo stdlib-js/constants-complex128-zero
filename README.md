@@ -35,30 +35,14 @@ limitations under the License.
 
 > Double-precision complex floating-point zero.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-complex128-zero
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
 ```
 
 #### COMPLEX128_ZERO
@@ -66,8 +50,8 @@ var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
 Double-precision complex floating-point zero.
 
 ```javascript
-var real = require( '@stdlib/complex-real' );
-var imag = require( '@stdlib/complex-imag' );
+import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@esm/index.mjs';
+import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@esm/index.mjs';
 
 var re = real( COMPLEX128_ZERO );
 // returns 0.0
@@ -86,11 +70,16 @@ var im = imag( COMPLEX128_ZERO );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var real = require( '@stdlib/complex-real' );
-var imag = require( '@stdlib/complex-imag' );
-var Complex128Array = require( '@stdlib/array-complex128' );
-var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@esm/index.mjs';
+import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@esm/index.mjs';
+import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
@@ -114,6 +103,10 @@ re = real( v );
 
 im = imag( v );
 // returns 0.0
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -135,7 +128,7 @@ im = imag( v );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
