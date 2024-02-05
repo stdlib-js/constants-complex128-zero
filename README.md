@@ -35,38 +35,32 @@ limitations under the License.
 
 > Double-precision complex floating-point zero.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-complex128-zero
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-COMPLEX128_ZERO = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var COMPLEX128_ZERO = require( 'path/to/vendor/umd/constants-complex128-zero/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.COMPLEX128_ZERO;
-})();
-</script>
+var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
 ```
 
 #### COMPLEX128_ZERO
@@ -94,16 +88,11 @@ var im = imag( COMPLEX128_ZERO );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var real = require( '@stdlib/complex-real' );
+var imag = require( '@stdlib/complex-imag' );
+var Complex128Array = require( '@stdlib/array-complex128' );
+var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
@@ -127,11 +116,6 @@ re = real( v );
 
 im = imag( v );
 // returns 0.0
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -141,6 +125,14 @@ im = imag( v );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/constants-complex64/zero`][@stdlib/constants/complex64/zero]</span><span class="delimiter">: </span><span class="description">single-precision complex floating-point zero.</span>
+
+</section>
 
 <!-- /.related -->
 
@@ -215,6 +207,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/constants-complex128-zero/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-complex128-zero/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/constants/complex64/zero]: https://github.com/stdlib-js/constants-complex64-zero
+
+<!-- </related-links> -->
 
 </section>
 
