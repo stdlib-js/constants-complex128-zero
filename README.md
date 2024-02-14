@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-COMPLEX128_ZERO = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js' )
+COMPLEX128_ZERO = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var COMPLEX128_ZERO = require( 'path/to/vendor/umd/constants-complex128-zero/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -101,7 +101,7 @@ var im = imag( COMPLEX128_ZERO );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
