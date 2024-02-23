@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,35 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
 * Double-precision complex floating-point zero.
-*
-* @module @stdlib/constants-complex128-zero
-* @type {Complex128}
 *
 * @example
-* var COMPLEX128_ZERO = require( '@stdlib/constants-complex128-zero' );
+* var zero = COMPLEX128_ZERO;
 * // returns <Complex128>
 */
-
-// MODULES //
-
-var Complex128 = require( '@stdlib/complex-float64' );
-
-
-// MAIN //
-
-/**
-* Double-precision complex floating-point zero.
-*
-* @constant
-* @type {Complex128}
-*/
-var COMPLEX128_ZERO = new Complex128( 0.0, 0.0 );
+declare const COMPLEX128_ZERO: Complex128;
 
 
 // EXPORTS //
 
-module.exports = COMPLEX128_ZERO;
+export = COMPLEX128_ZERO;
