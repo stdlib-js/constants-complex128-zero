@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.1-esm/index.mjs';
 ```
 
 #### COMPLEX128_ZERO
@@ -79,7 +79,7 @@ var im = imag( COMPLEX128_ZERO );
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@esm/index.mjs';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.1-esm/index.mjs';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
