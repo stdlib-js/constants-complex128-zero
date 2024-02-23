@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex128-zero/tags). For example,
+
+```javascript
 import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.1-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ var im = imag( COMPLEX128_ZERO );
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@deno/mod.js';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.1-deno/mod.js';
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@deno/mod.js';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
