@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex128-zero/tags). For example,
+
+```javascript
 import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.2-esm/index.mjs';
 ```
 
@@ -79,7 +84,7 @@ var im = imag( COMPLEX128_ZERO );
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@esm/index.mjs';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@v0.2.2-esm/index.mjs';
+import COMPLEX128_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-zero@esm/index.mjs';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
