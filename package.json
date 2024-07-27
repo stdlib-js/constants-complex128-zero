@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-complex128-zero",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Double-precision complex floating-point zero.",
   "license": "Apache-2.0",
   "author": {
@@ -41,8 +41,8 @@
   "devDependencies": {
     "@stdlib/array-complex128": "^0.2.1",
     "@stdlib/assert-is-complex128": "^0.2.1",
-    "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
-    "@stdlib/complex-float64-real": "github:stdlib-js/complex-float64-real#main",
+    "@stdlib/complex-float64-imag": "^0.1.0",
+    "@stdlib/complex-float64-real": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
