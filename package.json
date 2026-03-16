@@ -35,12 +35,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float64-ctor": "^0.1.1",
+    "@stdlib/complex-float64-ctor": "^0.1.2",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.3.1",
-    "@stdlib/assert-is-complex128": "^0.2.2",
+    "@stdlib/array-complex128": "^0.3.2",
+    "@stdlib/assert-is-complex128": "^0.2.3",
     "@stdlib/complex-float64-imag": "^0.1.2",
     "@stdlib/complex-float64-real": "^0.1.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
